@@ -47,7 +47,7 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: |
-            ghcr.io/medicalinformatics/secureepilinker
+            ghcr.io/torbrenner/secureepilinker
           tags: |
             type=schedule
             type=ref,event=branch
